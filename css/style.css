@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* general styling */
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Inter";
+  font-weight: 300;
+}
+
+/* header styling */
+
+header #announcements-bar {
+  color: #ffffff;
+  background: #85b4d7;
+  height: 20px;
+  padding: 7px 0 !important;
+  padding-top: 7px !important;
+  padding-right: 0px !important;
+  padding-bottom: 7px !important;
+  padding-left: 0px !important;
+  line-height: 20px !important;
+  font-size: 0.75rem !important;
+  color: #ffffff !important;
+  vertical-align: top;
+  display: flex;
+  justify-content: space-between;
+}
+
+header #announcements-bar p {
+  margin: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+header nav {
+  min-height: 55px;
+  outline-width: 0 0 1px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav ul img {
+  max-height: 1.5rem;
+  padding: 0.2rem;
+}
+
+li {
+  font-size: 0.95rem;
+  font-weight: 380;
+  color: black;
+}
+
+/* links styling */
+a:link {
+  color: initial;
+}
+
+a:visited {
+  color: initial;
+}
+
+a:hover {
+  color: initial;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+a:active {
+  color: initial;
+}
+
+/* main styling */
