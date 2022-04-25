@@ -88,4 +88,50 @@ a:active {
   color: initial;
 }
 
-/* main styling */
+/* main styling - productlist*/
+
+#product-list-view {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 8%;
+}
+
+.product-color-bar {
+  background-color: #f2f2f2;
+  min-height: 2.5rem;
+}
+
+.color-circle {
+  background-color: #2a90df;
+  border: 1px solid #000;
+  max-width: 20px;
+  min-height: 20px;
+  border-radius: 100%;
+  margin: 1rem;
+}
+
+.single-product {
+  padding: 2.5rem 0 0 0;
+}
+
+.single-product img {
+  max-height: 24rem;
+}
+
+.product-info-bar {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.single-product h3 {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 0.3rem 0 0.3rem 0;
+}
+
+.single-product p {
+  font-size: 0.75rem;
+  font-weight: 300;
+  margin: 0.3rem 0 0.3rem 0;
+}
