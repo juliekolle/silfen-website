@@ -227,7 +227,7 @@ h2 {
 
 .SubHeading {
   width: 650px;
-  height: 4000px;
+  height: 6000px;
   transition: opacity 0.25s;
   background: white;
   border: 2px rgba(50, 48, 48, 0.686);
@@ -342,8 +342,51 @@ h2 {
   margin-top: 5%;
 }
 
+/*FUTURE*/
+
 #FutureSilfen{
   max-width: 650px;
   /* margin-bottom: 5%; */
   margin-top: 0.5%;
+  margin-bottom: 2%;
+}
+
+.FutureText {
+  position: relative;
+  font-size: 14px;
+  position: center;
+  color: black;
+  font-family: var(--font-1);
+  font-weight: 200;
+  margin: 2%;
+}
+
+
+.Timeline-Years {
+  max-width: 1050px;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.year2023{
+  position: relative;
+  font-size: 14px;
+  position: center;
+  color: black;
+  font-family: var(--font-1);
+  font-weight: 200;
+  margin-top: -100%;
+  margin-left: 12rem;
+}
+
+.Aug2024{
+  position: relative;
+  font-size: 14px;
+  position: center;
+  color: black;
+  font-family: var(--font-1);
+  font-weight: 200;
+  margin-top: 5.5%;
+  margin-left: 12rem;
 }
