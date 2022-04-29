@@ -11,6 +11,7 @@
   --black: rgb(0, 0, 0);
   --white: #ffffff;
   --accent-black: rgba(0, 0, 0, 0.094);
+  --accent-grey-text: rgba(0, 0, 0, 0.51);
 
   /* BUTTONS */
 }
@@ -219,7 +220,7 @@ h2 {
 
 .BoxHeading:hover>* {
   opacity: 100%;
-  color: #7BAFD4;
+  color: #7bafd4;
 }
 
 /*SubHeadings*/
