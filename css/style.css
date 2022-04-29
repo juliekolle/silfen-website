@@ -407,3 +407,23 @@ h2 {
   margin-top: 4%;
   margin-left: 12rem;
 }
+
+.Before2040{
+  position: relative;
+  font-size: 14px;
+  color: black;
+  font-family: var(--font-1);
+  font-weight: 200;
+  margin-top: 6%;
+  margin-left: 12rem;
+}
+
+.FutureTextConclusion {
+  position: relative;
+  font-size: 14px;
+  color: black;
+  font-family: var(--font-1);
+  font-weight: 200;
+  margin: 2%;
+  margin-top: 5%;
+}
