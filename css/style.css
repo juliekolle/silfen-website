@@ -297,29 +297,43 @@ h2 {
   justify-content: left;
   font-weight: 550;
   font-size: 1.3rem;
+  font-family: var(--font-1);
   margin-left: 2%;
   margin-top: 5%;
   font-size: 32px;
 }
 
-/*materials grid, subheadings, text*/ 
+#MaterialsTimeline{
+  max-width: 650px;
+  margin-left: 2%;
+  margin-top: 0.5%;
+  margin-bottom: 2%;
+}
 
-.VertTimeline {
-  width: 0.5px;
-  height: 650px;
-  transition: opacity 0.25s;
-  background: black;
-  border: 0.5px black;
-  border-style: solid;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  margin-left: 8rem;
+.MaterialsGrid{
+  display: grid;
+  grid-template-columns: 16% auto;
 }
-.section1{
-  grid-column: 2;
-    grid-row: 2;
-    justify-self: center;
+
+.CottonText{
+  position: relative;
+  font-size: 14px;
+  color: black;
+  font-family: var(--font-1);
+  font-weight: 200;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
+
+/* .LeatherText{
+  position: relative;
+  font-size: 14px;
+  color: black;
+  font-family: var(--font-1);
+  font-weight: 200;
+  margin-left: 2rem;
+} */
+
 
 /*PEOPLE*/
 /*people paragraphs*/
@@ -425,5 +439,4 @@ h2 {
   font-family: var(--font-1);
   font-weight: 200;
   margin: 2%;
-  margin-top: 5%;
 }
