@@ -14,6 +14,7 @@
 
   /* BUTTONS */
 }
+
 html,
 body,
 div {
@@ -163,7 +164,7 @@ h1 {
   margin: 4rem 0 0.8rem 0;
 }
 
-/* Sustanability page style */
+/* SUSTAINABILITY PAGE STYLE*/
 
 .h1Sustainable {
   display: flex;
@@ -178,22 +179,23 @@ h2 {
   justify-content: left;
   font-weight: 550;
   font-size: 1.3rem;
-  margin: 2%;
+  margin-left: 2%;
+  margin-top: 10%;
+  font-size: 32px;
 }
 
-.SustText{
+.SustText {
   position: relative;
-  font-size:14px;
+  font-size: 14px;
   position: center;
   color: black;
   font-family: var(--font-1);
   font-weight: 200;
   margin: 2%;
-
 }
 
 /*Heading: Sustainability Report 2022*/
-.SustReport{
+.SustReport {
   display: grid;
   grid-template-columns: repeat(auto-fill);
   gap: 2rem;
@@ -201,7 +203,7 @@ h2 {
   margin-top: rem;
 }
 
-.BoxHeading{
+.BoxHeading {
   width: 650px;
   height: 80px;
   transition: opacity 0.25s;
@@ -211,20 +213,20 @@ h2 {
   margin-top: 5rem;
 }
 
-.BoxHeading > * {
+.BoxHeading>* {
   transform: translateY(-40px);
-} 
+}
 
-.BoxHeading:hover > * {
+.BoxHeading:hover>* {
   opacity: 100%;
   color: #7BAFD4;
 }
 
 /*SubHeadings*/
 
-.SubHeading{
+.SubHeading {
   width: 650px;
-  height: 2000px;
+  height: 4000px;
   transition: opacity 0.25s;
   background: white;
   border: 2px rgba(50, 48, 48, 0.686);
@@ -233,11 +235,114 @@ h2 {
 }
 
 /*INTRODUCTION*/
-#timeline{
+
+.introH2{
+  display: flex;
+  justify-content: left;
+  font-weight: 550;
+  font-size: 1.3rem;
+  margin-left: 2%;
+  margin-top: 5%;
+  font-size: 32px;
+}
+
+#timeline {
   max-width: 500px;
   margin-left: 12%;
   margin-bottom: 5%;
   margin-top: 5%;
 }
 
+#flowerbag {
+  max-width: 650px;
+  /* margin-bottom: 5%; */
+  margin-top: 0.5%;
+}
 
+#goal8 {
+  max-width: 80px;
+  margin-top: -5%;
+  margin-left: 60%;
+}
+
+#goal12 {
+  max-width: 80px;
+  margin-top: -98%;
+  margin-bottom: 3%;
+  margin-left: 73%;
+}
+
+#goal13 {
+  max-width: 80px;
+  margin-top: -99%;
+  margin-bottom: 6%;
+  margin-left: 86%;
+}
+
+/*MATERIALS*/
+
+.MaterialsIntro {
+  position: relative;
+  font-size: 14px;
+  position: center;
+  color: black;
+  font-family: var(--font-1);
+  font-weight: 200;
+  margin: 2%;
+}
+
+.materialsH2{
+  display: flex;
+  justify-content: left;
+  font-weight: 550;
+  font-size: 1.3rem;
+  margin-left: 2%;
+  margin-top: 5%;
+  font-size: 32px;
+}
+
+/*materials grid, subheadings, text*/ 
+
+.VertTimeline {
+  width: 0.5px;
+  height: 650px;
+  transition: opacity 0.25s;
+  background: black;
+  border: 0.5px black;
+  border-style: solid;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 8rem;
+}
+.section1{
+  grid-column: 2;
+    grid-row: 2;
+    justify-self: center;
+}
+
+/*PEOPLE*/
+/*people paragraphs*/
+.peopleText {
+  position: relative;
+  font-size: 14px;
+  color: black;
+  font-family: var(--font-1);
+  font-weight: 200;
+  margin: 2%;
+}
+
+
+/*TRANSPORT*/
+
+#transportation {
+  max-width: 500px;
+  margin-left: 12%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+#FutureSilfen{
+  max-width: 650px;
+  /* margin-bottom: 5%; */
+  margin-top: 0.5%;
+}
