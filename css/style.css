@@ -425,6 +425,26 @@ h2 {
 .sa-8000Text{
   position: relative;
   grid-column-start: 1;
+  grid-column-end: 2;
+  font-size: 14px;
+  color: black;
+  font-family: var(--font-1);
+  font-weight: 200;
+  margin-top:-2rem;
+  font-family: var(--primary-font);
+  color: var(--black);
+}
+
+#people-img{
+  max-width: 200px;
+  position:relative;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.workersText{
+  position: relative;
+  grid-column-start: 2;
   grid-column-end: 3;
   font-size: 14px;
   color: black;
