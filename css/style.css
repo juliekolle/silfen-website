@@ -173,6 +173,8 @@ h1 {
   font-weight: 550;
   font-size: 3rem;
   margin: 3rem 0 0.8rem 0;
+  font-family: var(--primary-font);
+  color: var(--black);
 }
 
 h2 {
@@ -183,6 +185,8 @@ h2 {
   margin-left: 2%;
   margin-top: 10%;
   font-size: 32px;
+  font-family: var(--primary-font);
+  color: var(--black);
 }
 
 .SustText {
@@ -193,6 +197,8 @@ h2 {
   font-family: var(--font-1);
   font-weight: 200;
   margin: 2%;
+  font-family: var(--primary-font);
+  color: var(--black);
 }
 
 /*Heading: Sustainability Report 2022*/
@@ -233,6 +239,8 @@ h2 {
   border: 2px rgba(50, 48, 48, 0.686);
   border-style: solid;
   margin-top: 0.01rem;
+  font-family: var(--primary-font);
+  color: var(--black);
 }
 
 /*INTRODUCTION*/
@@ -245,6 +253,8 @@ h2 {
   margin-left: 2%;
   margin-top: 5%;
   font-size: 32px;
+  font-family: var(--primary-font);
+  color: var(--black);
 }
 
 #timeline {
@@ -290,6 +300,8 @@ h2 {
   font-family: var(--font-1);
   font-weight: 200;
   margin: 2%;
+  font-family: var(--primary-font);
+  color: var(--black);
 }
 
 .materialsH2{
@@ -301,6 +313,8 @@ h2 {
   margin-left: 2%;
   margin-top: 5%;
   font-size: 32px;
+  font-family: var(--primary-font);
+  color: var(--black);
 }
 
 #MaterialsTimeline{
@@ -324,6 +338,8 @@ h2 {
   font-weight: 200;
   margin-left: 1rem;
   margin-right: 1rem;
+  font-family: var(--primary-font);
+  color: var(--black);
 }
 
 .LeatherText{
@@ -337,6 +353,8 @@ h2 {
   margin-left: 1rem;
   margin-right: 1rem;
   margin-top: 3rem;
+  font-family: var(--primary-font);
+  color: var(--black);
 }
 
 .VeganText{
@@ -349,11 +367,34 @@ h2 {
   font-weight: 200;
   margin-left: 1rem;
   margin-right: 1rem;
-  margin-top: -7rem;
+  margin-top: -3rem;
+  font-family: var(--primary-font);
+  color: var(--black);
+}
+
+.rPETlineText{
+  position: relative;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  font-size: 14px;
+  color: black;
+  font-family: var(--font-1);
+  font-weight: 200;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top:-2rem;
+  font-family: var(--primary-font);
+  color: var(--black);
 }
 
 
 /*PEOPLE*/
+
+.h2People{
+  margin-top: -2%;
+  font-family: var(--primary-font);
+  color: var(--black);
+}
 /*people paragraphs*/
 .peopleText {
   position: relative;
@@ -361,8 +402,39 @@ h2 {
   color: black;
   font-family: var(--font-1);
   font-weight: 200;
-  margin: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 5%;
+  font-family: var(--primary-font);
+  color: var(--black);
 }
+
+.PeopleGrid{
+  display: grid;
+  grid-template-columns: 16% auto;
+  grid-template-rows: 16% auto;
+}
+
+#sa-8000{
+  max-width: 200px;
+  position:relative;
+  margin-left: 20rem;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.sa-8000Text{
+  position: relative;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  font-size: 14px;
+  color: black;
+  font-family: var(--font-1);
+  font-weight: 200;
+  margin-top:-2rem;
+  font-family: var(--primary-font);
+  color: var(--black);
+}
+
 
 
 /*TRANSPORT*/
@@ -389,7 +461,11 @@ h2 {
   color: black;
   font-family: var(--font-1);
   font-weight: 200;
-  margin: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 5%;
+  font-family: var(--primary-font);
+  color: var(--black);
 }
 
 
@@ -408,6 +484,8 @@ h2 {
   font-weight: 200;
   margin-top: -100%;
   margin-left: 12rem;
+  font-family: var(--primary-font);
+  color: var(--black);
 }
 
 .Aug2024{
@@ -418,6 +496,7 @@ h2 {
   font-weight: 200;
   margin-top: 5.5%;
   margin-left: 12rem;
+  font-family: var(--primary-font);
 }
 
 .Before2027{
@@ -428,6 +507,8 @@ h2 {
   font-weight: 200;
   margin-top: 4.2%;
   margin-left: 12rem;
+  font-family: var(--primary-font);
+  color: var(--black);
 }
 
 .In2030{
@@ -438,6 +519,8 @@ h2 {
   font-weight: 200;
   margin-top: 4%;
   margin-left: 12rem;
+  font-family: var(--primary-font);
+  color: var(--black);
 }
 
 .Before2040{
@@ -448,6 +531,8 @@ h2 {
   font-weight: 200;
   margin-top: 6%;
   margin-left: 12rem;
+  font-family: var(--primary-font);
+  color: var(--black);
 }
 
 .FutureTextConclusion {
@@ -456,5 +541,9 @@ h2 {
   color: black;
   font-family: var(--font-1);
   font-weight: 200;
-  margin: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 5%;
+  font-family: var(--primary-font);
+  color: var(--black);
 }
