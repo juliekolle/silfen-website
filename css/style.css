@@ -214,11 +214,11 @@ h2 {
   margin-top: 5rem;
 }
 
-.BoxHeading>* {
+.BoxHeading > * {
   transform: translateY(-40px);
 }
 
-.BoxHeading:hover>* {
+.BoxHeading:hover > * {
   opacity: 100%;
   color: #7bafd4;
 }
@@ -237,7 +237,7 @@ h2 {
 
 /*INTRODUCTION*/
 
-.introH2{
+.introH2 {
   display: flex;
   justify-content: left;
   font-weight: 550;
@@ -292,7 +292,7 @@ h2 {
   margin: 2%;
 }
 
-.materialsH2{
+.materialsH2 {
   display: flex;
   justify-content: left;
   font-weight: 550;
@@ -302,7 +302,7 @@ h2 {
   font-size: 32px;
 }
 
-/*materials grid, subheadings, text*/ 
+/*materials grid, subheadings, text*/
 
 .VertTimeline {
   width: 0.5px;
@@ -315,10 +315,10 @@ h2 {
   margin-bottom: 2rem;
   margin-left: 8rem;
 }
-.section1{
+.section1 {
   grid-column: 2;
-    grid-row: 2;
-    justify-self: center;
+  grid-row: 2;
+  justify-self: center;
 }
 
 /*PEOPLE*/
@@ -332,7 +332,6 @@ h2 {
   margin: 2%;
 }
 
-
 /*TRANSPORT*/
 
 #transportation {
@@ -342,8 +341,79 @@ h2 {
   margin-top: 5%;
 }
 
-#FutureSilfen{
+#FutureSilfen {
   max-width: 650px;
   /* margin-bottom: 5%; */
   margin-top: 0.5%;
+}
+
+/* product page */
+#purchase-card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+#product-page {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  max-width: 80%;
+  padding: 4rem 2rem 2rem 2rem;
+}
+
+#big-product-image {
+  max-width: 100%;
+  object-position: center;
+}
+
+.add-to-cart-area {
+  display: flex;
+  column-gap: 4%;
+}
+
+.add-to-cart-area button {
+  background-color: var(--black);
+  color: var(--white);
+  border: 0px;
+  max-height: 2.6rem;
+  min-width: 75%;
+  font-family: var(--font-1);
+}
+
+.plus-minus-products {
+  min-width: 25%;
+  max-height: 2.6rem;
+  border: 1px solid var(--accent-black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#product-page h1 {
+  font-weight: 400;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: left;
+  margin-top: 0;
+}
+
+.price-productpage {
+  font-weight: 350;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.product-description {
+  color: var(--accent-grey-text);
+  font-size: 0.9rem;
+}
+
+#product-page .color-circle {
+  margin: 0.1rem 1rem 1rem 0;
+  min-width: 5px;
+  max-height: 5px;
+}
+
+.color-title {
+  margin: 0;
 }
