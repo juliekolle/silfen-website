@@ -304,15 +304,16 @@ h2 {
 }
 
 #MaterialsTimeline{
-  max-width: 650px;
-  margin-left: 2%;
+  max-width: 400px;
+  margin-left: 1rem;
   margin-top: 0.5%;
-  margin-bottom: 2%;
+  margin-bottom: -15rem;
 }
 
 .MaterialsGrid{
   display: grid;
   grid-template-columns: 16% auto;
+  grid-template-rows: 16% auto;
 }
 
 .CottonText{
@@ -325,14 +326,31 @@ h2 {
   margin-right: 1rem;
 }
 
-/* .LeatherText{
+.LeatherText{
   position: relative;
+  grid-column-start: 2;
+  grid-column-end: 3;
   font-size: 14px;
   color: black;
   font-family: var(--font-1);
   font-weight: 200;
-  margin-left: 2rem;
-} */
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 3rem;
+}
+
+.VeganText{
+  position: relative;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  font-size: 14px;
+  color: black;
+  font-family: var(--font-1);
+  font-weight: 200;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: -7rem;
+}
 
 
 /*PEOPLE*/
