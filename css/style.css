@@ -234,6 +234,7 @@ h2 {
 .SubHeading {
   width: 650px;
   height: 6000px;
+  /* height: 4850px; */
   transition: opacity 0.25s;
   background: white;
   border: 2px rgba(50, 48, 48, 0.686);
@@ -411,35 +412,41 @@ h2 {
 
 .PeopleGrid{
   display: grid;
-  grid-template-columns: 16% auto;
-  grid-template-rows: 16% auto;
+  grid-template-columns: 50% auto;
+  grid-template-rows: 33% auto;
 }
 
 #sa-8000{
   max-width: 200px;
   position:relative;
-  margin-left: 20rem;
+  margin-left: 4rem;
   grid-column-start: 2;
   grid-column-end: 3;
+  
 }
 .sa-8000Text{
   position: relative;
   grid-column-start: 1;
   grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
   font-size: 14px;
   color: black;
   font-family: var(--font-1);
   font-weight: 200;
-  margin-top:-2rem;
+  margin-top:2rem;
+  margin-left: 2rem;
   font-family: var(--primary-font);
   color: var(--black);
 }
 
 #people-img{
-  max-width: 200px;
+  max-width: 250px;
   position:relative;
   grid-column-start: 1;
   grid-column-end: 2;
+  margin-top: 5rem;
+  margin-left: 2rem;
 }
 
 .workersText{
@@ -450,7 +457,8 @@ h2 {
   color: black;
   font-family: var(--font-1);
   font-weight: 200;
-  margin-top:-2rem;
+  margin-top:8rem;
+  margin-right: 2rem;
   font-family: var(--primary-font);
   color: var(--black);
 }
