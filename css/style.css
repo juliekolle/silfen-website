@@ -167,6 +167,77 @@ h1 {
   margin: 4rem 0 0.8rem 0;
 }
 
+/* product page */
+#purchase-card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+#product-page {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  max-width: 80%;
+  padding: 4rem 2rem 2rem 2rem;
+}
+
+#big-product-image {
+  max-width: 100%;
+  object-position: center;
+}
+
+.add-to-cart-area {
+  display: flex;
+  column-gap: 4%;
+}
+
+.add-to-cart-area button {
+  background-color: var(--black);
+  color: var(--white);
+  border: 0px;
+  max-height: 2.6rem;
+  min-width: 75%;
+  font-family: var(--font-1);
+}
+
+.plus-minus-products {
+  min-width: 25%;
+  max-height: 2.6rem;
+  border: 1px solid var(--accent-black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#product-page h1 {
+  font-weight: 400;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: left;
+  margin-top: 0;
+}
+
+.price-productpage {
+  font-weight: 350;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.product-description {
+  color: var(--accent-grey-text);
+  font-size: 0.9rem;
+}
+
+#product-page .color-circle {
+  margin: 0.1rem 1rem 1rem 0;
+  min-width: 5px;
+  max-height: 5px;
+}
+
+.color-title {
+  margin: 0;
+}
+
 /* SUSTAINABILITY PAGE STYLE*/
 
 /* body {

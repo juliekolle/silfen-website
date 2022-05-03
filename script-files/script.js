@@ -24,21 +24,16 @@ function showbag(bag){
     clone.querySelector("h3").textContent = bag.title.rendered;
     const imgurl = bag._embedded["wp:featuredmedia"][0].media_details.sizes.medium.source_url;
     clone.querySelector("img").src = imgurl
-
-  
-
-   //console.log(price);
-//const currency = price._embedded
-//clone.querySelector(".price").textContent = price;
+clone.querySelector(".price").textContent = bag.price;
 document.querySelector("main").appendChild(clone);
 
 
 }
 
-//*function showprice(price){
-    //const template = document.querySelector("template").content;
-    //const clone = template.cloneNode(true);
-    //console.log(price);
-   // clone.querySelector("p").textContent = price;
+// function showprice(price){
+//     const template = document.querySelector("template").content;
+//     const clone = template.cloneNode(true);
+//     console.log(price);
+//     clone.querySelector(".price").textContent = price;
 
-//}
+// }
