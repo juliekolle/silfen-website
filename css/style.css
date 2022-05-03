@@ -12,6 +12,8 @@
   --white: #ffffff;
   --accent-black: rgba(0, 0, 0, 0.094);
   --accent-grey-text: rgba(0, 0, 0, 0.51);
+  --green-colour-earth: #3df4d1; ;  
+  --pink-colour-earth: #f761c4; 
 
   /* BUTTONS */
 }
@@ -167,6 +169,11 @@ h1 {
 
 /* SUSTAINABILITY PAGE STYLE*/
 
+body {
+  background-image: url("/images/background-earth.png");
+  position: sticky;
+}
+
 .h1Sustainable {
   display: flex;
   justify-content: center;
@@ -233,8 +240,7 @@ h2 {
 
 .SubHeading {
   width: 650px;
-  height: 6000px;
-  /* height: 4850px; */
+  height: 4890px;
   transition: opacity 0.25s;
   background: white;
   border: 2px rgba(50, 48, 48, 0.686);
