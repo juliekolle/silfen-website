@@ -245,6 +245,40 @@ h1 {
   position: sticky;
 } */
 
+.biggrid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+}
+
+.tableOfContent {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.tableOfContent ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.3rem;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.tableOfContent li {
+  color: var(--black);
+  border: 1px solid var(--accent-black);
+  background-color: var(--white);
+  max-width: fit-content;
+  padding: 0.3rem;
+  list-style: none;
+  font-weight: 500;
+  transform: translate(2rem, 10rem);
+}
+
+.tableOfContent li:hover {
+  background-color: var(--green-colour-earth);
+}
+
 .h1Sustainable {
   display: flex;
   justify-content: center;
@@ -285,7 +319,7 @@ h2 {
   grid-template-columns: repeat(auto-fill);
   gap: 2rem;
   justify-content: center;
-  margin-top: -20rem;
+  /* margin-top: -20rem; */
 }
 
 .BoxHeading {
@@ -293,7 +327,7 @@ h2 {
   height: 80px;
   transition: opacity 0.25s;
   background: white;
-  border: 2px rgba(50, 48, 48, 0.686);
+  border: 2px var(--accent-black);
   border-style: solid;
   margin-top: 5rem;
 }
@@ -324,7 +358,7 @@ h2 {
   height: 4890px;
   transition: opacity 0.25s;
   background: white;
-  border: 2px rgba(50, 48, 48, 0.686);
+  border: 2px var(--accent-black);
   border-style: solid;
   margin-top: 0.01rem;
   font-family: var(--primary-font);
