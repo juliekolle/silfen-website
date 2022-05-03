@@ -12,8 +12,8 @@
   --white: #ffffff;
   --accent-black: rgba(0, 0, 0, 0.094);
   --accent-grey-text: rgba(0, 0, 0, 0.51);
-  --green-colour-earth: #3df4d1; ;  
-  --pink-colour-earth: #f761c4; 
+  --green-colour-earth: #3df4d1;
+  --pink-colour-earth: #f761c4;
 
   /* BUTTONS */
 }
@@ -176,14 +176,14 @@ h1 {
 
 #product-page {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 2fr 0.8fr;
   max-width: 80%;
-  padding: 4rem 2rem 2rem 2rem;
+  padding: 4rem 12rem 2rem 14rem;
+  grid-column-gap: 4rem;
 }
 
 #big-product-image {
-  max-width: 100%;
-  object-position: center;
+  min-width: 100%;
 }
 
 .add-to-cart-area {
@@ -298,23 +298,22 @@ h2 {
   margin-top: 5rem;
 }
 
-.BoxHeading>* {
+.BoxHeading > * {
   transform: translateY(-40px);
 }
 
-.BoxHeading:hover>* {
+.BoxHeading:hover > * {
   opacity: 100%;
   color: #7bafd4;
 }
 
 /*SubHeadings*/
 
-.SubheadingsBox1{
+.SubheadingsBox1 {
   position: sticky;
-
 }
 
-.SubheadingsBox{
+.SubheadingsBox {
   position: sticky;
   margin-left: 10rem;
   margin-top: 10rem;
@@ -334,7 +333,7 @@ h2 {
 
 /*INTRODUCTION*/
 
-.introH2{
+.introH2 {
   display: flex;
   justify-content: left;
   font-weight: 550;
@@ -395,7 +394,7 @@ h2 {
   color: var(--black);
 }
 
-.materialsH2{
+.materialsH2 {
   display: flex;
   justify-content: left;
   font-weight: 550;
@@ -408,20 +407,20 @@ h2 {
   color: var(--black);
 }
 
-#MaterialsTimeline{
+#MaterialsTimeline {
   max-width: 400px;
   margin-left: 1rem;
   margin-top: 0.5%;
   margin-bottom: -15rem;
 }
 
-.MaterialsGrid{
+.MaterialsGrid {
   display: grid;
   grid-template-columns: 16% auto;
   grid-template-rows: 16% auto;
 }
 
-.CottonText{
+.CottonText {
   position: relative;
   font-size: 14px;
   color: black;
@@ -433,7 +432,7 @@ h2 {
   color: var(--black);
 }
 
-.LeatherText{
+.LeatherText {
   position: relative;
   grid-column-start: 2;
   grid-column-end: 3;
@@ -448,7 +447,7 @@ h2 {
   color: var(--black);
 }
 
-.VeganText{
+.VeganText {
   position: relative;
   grid-column-start: 2;
   grid-column-end: 3;
@@ -463,7 +462,7 @@ h2 {
   color: var(--black);
 }
 
-.rPETlineText{
+.rPETlineText {
   position: relative;
   grid-column-start: 2;
   grid-column-end: 3;
@@ -473,15 +472,14 @@ h2 {
   font-weight: 200;
   margin-left: 1rem;
   margin-right: 1rem;
-  margin-top:-2rem;
+  margin-top: -2rem;
   font-family: var(--primary-font);
   color: var(--black);
 }
 
-
 /*PEOPLE*/
 
-.h2People{
+.h2People {
   margin-top: -2%;
   font-family: var(--primary-font);
   color: var(--black);
@@ -500,21 +498,20 @@ h2 {
   color: var(--black);
 }
 
-.PeopleGrid{
+.PeopleGrid {
   display: grid;
   grid-template-columns: 50% auto;
   grid-template-rows: 33% auto;
 }
 
-#sa-8000{
+#sa-8000 {
   max-width: 200px;
-  position:relative;
+  position: relative;
   margin-left: 4rem;
   grid-column-start: 2;
   grid-column-end: 3;
-  
 }
-.sa-8000Text{
+.sa-8000Text {
   position: relative;
   grid-column-start: 1;
   grid-column-end: 2;
@@ -524,22 +521,22 @@ h2 {
   color: black;
   font-family: var(--font-1);
   font-weight: 200;
-  margin-top:2rem;
+  margin-top: 2rem;
   margin-left: 2rem;
   font-family: var(--primary-font);
   color: var(--black);
 }
 
-#people-img{
+#people-img {
   max-width: 250px;
-  position:relative;
+  position: relative;
   grid-column-start: 1;
   grid-column-end: 2;
   margin-top: 5rem;
   margin-left: 2rem;
 }
 
-.workersText{
+.workersText {
   position: relative;
   grid-column-start: 2;
   grid-column-end: 3;
@@ -547,13 +544,11 @@ h2 {
   color: black;
   font-family: var(--font-1);
   font-weight: 200;
-  margin-top:8rem;
+  margin-top: 8rem;
   margin-right: 2rem;
   font-family: var(--primary-font);
   color: var(--black);
 }
-
-
 
 /*TRANSPORT*/
 
@@ -566,7 +561,7 @@ h2 {
 
 /*FUTURE*/
 
-#FutureSilfen{
+#FutureSilfen {
   max-width: 650px;
   /* margin-bottom: 5%; */
   margin-top: 0.5%;
@@ -586,7 +581,6 @@ h2 {
   color: var(--black);
 }
 
-
 .Timeline-Years {
   max-width: 1050px;
   margin-left: 2rem;
@@ -594,7 +588,7 @@ h2 {
   margin-bottom: 2rem;
 }
 
-.year2023{
+.year2023 {
   position: relative;
   font-size: 14px;
   color: black;
@@ -606,7 +600,7 @@ h2 {
   color: var(--black);
 }
 
-.Aug2024{
+.Aug2024 {
   position: relative;
   font-size: 14px;
   color: black;
@@ -617,7 +611,7 @@ h2 {
   font-family: var(--primary-font);
 }
 
-.Before2027{
+.Before2027 {
   position: relative;
   font-size: 14px;
   color: black;
@@ -629,7 +623,7 @@ h2 {
   color: var(--black);
 }
 
-.In2030{
+.In2030 {
   position: relative;
   font-size: 14px;
   color: black;
@@ -641,7 +635,7 @@ h2 {
   color: var(--black);
 }
 
-.Before2040{
+.Before2040 {
   position: relative;
   font-size: 14px;
   color: black;
