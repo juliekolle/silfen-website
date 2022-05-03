@@ -17,6 +17,7 @@
 
   /* BUTTONS */
 }
+
 html,
 body,
 div {
@@ -166,7 +167,7 @@ h1 {
   margin: 4rem 0 0.8rem 0;
 }
 
-/* Sustanability page style */
+/* SUSTAINABILITY PAGE STYLE*/
 
 /* body {
   background-image: url("/images/background-earth.png");
@@ -226,11 +227,11 @@ h2 {
   margin-top: 5rem;
 }
 
-.BoxHeading > * {
+.BoxHeading>* {
   transform: translateY(-40px);
 }
 
-.BoxHeading:hover > * {
+.BoxHeading:hover>* {
   opacity: 100%;
   color: #7bafd4;
 }
@@ -238,10 +239,12 @@ h2 {
 /*SubHeadings*/
 
 .SubheadingsBox1{
-  position: relative;
+  position: sticky;
+
 }
 
 .SubheadingsBox{
+  position: sticky;
   margin-left: 10rem;
   margin-top: 10rem;
 }
@@ -279,36 +282,39 @@ h2 {
   margin-top: 5%;
 }
 
-/* product page */
-#purchase-card {
-  display: flex;
-  flex-direction: column;
-  row-gap: 1rem;
+#flowerbag {
+  max-width: 650px;
+  /* margin-bottom: 5%; */
+  margin-top: 0.5%;
 }
 
-#product-page {
-  display: grid;
-  grid-template-columns: 2fr 0.8fr;
-  grid-column-gap: 2.5rem;
-  max-width: 80%;
-  padding: 4rem 2rem 2rem 6rem;
+#goal8 {
+  max-width: 80px;
+  margin-top: -5%;
+  margin-left: 60%;
 }
 
-#big-product-image {
-  min-width: 100%;
+#goal12 {
+  max-width: 80px;
+  margin-top: -98%;
+  margin-bottom: 3%;
+  margin-left: 73%;
 }
 
-.add-to-cart-area {
-  display: flex;
-  column-gap: 4%;
+#goal13 {
+  max-width: 80px;
+  margin-top: -99%;
+  margin-bottom: 6%;
+  margin-left: 86%;
 }
 
-.add-to-cart-area button {
-  background-color: var(--black);
-  color: var(--white);
-  border: 0px;
-  max-height: 2.6rem;
-  min-width: 75%;
+/*MATERIALS*/
+
+.MaterialsIntro {
+  position: relative;
+  font-size: 14px;
+  position: center;
+  color: black;
   font-family: var(--font-1);
   font-weight: 200;
   margin-left: 2rem;
@@ -318,10 +324,7 @@ h2 {
   color: var(--black);
 }
 
-.plus-minus-products {
-  min-width: 25%;
-  max-height: 2.6rem;
-  border: 1px solid var(--accent-black);
+.materialsH2{
   display: flex;
   justify-content: left;
   font-weight: 550;
@@ -408,7 +411,7 @@ h2 {
 /*PEOPLE*/
 
 .h2People{
-  margin-top: -4%;
+  margin-top: -2%;
   font-family: var(--primary-font);
   color: var(--black);
 }
@@ -481,10 +484,13 @@ h2 {
 
 
 
-#product-page .color-circle {
-  margin: 0.1rem 1rem 1rem 0;
-  min-width: 5px;
-  max-height: 5px;
+/*TRANSPORT*/
+
+#transportation {
+  max-width: 500px;
+  margin-left: 12%;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 
 /*FUTURE*/
