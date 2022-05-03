@@ -1,15 +1,15 @@
 console.log("hello fellow coder");
 
-// const browserUrl = window.location.search;
-// const urlParams = new URLSearchParams(browserUrl);
-// const id = urlParams.get("id");
+//const browserUrl = window.location.search;
+const urlParams = new URLSearchParams(window.location.search);
+const id = urlParams.get("id");
 
 // this is what should be there as hardcoded
-const id = 53;
+//const id = 53;
 
 console.log("id from url", id);
 //https://jomediart.dk/wordpress/wp-json/wp/v2/product_list/51?_embed
-const url = `https://jomediart.dk/wordpress/wp-json/wp/v2/product_list/${id}?_embed`;
+const url = "https://jomediart.dk/wordpress/wp-json/wp/v2/product_list/" + id + "?_embed";
 // const url = "https://jomediart.dk/wordpress/wp-json/wp/v2/categories?id=53";
 console.log(url);
 fetch(url)
