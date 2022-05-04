@@ -26,7 +26,7 @@ function showbag(bag){
     clone.querySelector("img").src = imgurl
 clone.querySelector(".price").textContent = bag.price;
 clone.querySelector(".bag a").setAttribute("href",`productpage.html?id=${bag.id}`);
-document.querySelector("main").appendChild(clone);
+document.querySelector("#product-list-view").appendChild(clone);
 
 //clone.querySelector("a").setAttribute("href", `${id}`)}
 
